@@ -16,7 +16,7 @@ function findIT(pt){
                 }
             }
             if(pt == 2){
-                if(password[+value[0]-1] == rule[1] && password[+value[1]-1] != rule[1] || password[+value[0]-1] != rule[1] && password[+value[1]-1] == rule[1]){
+                 if((password[+value[0]-1] == rule[1]) != (password[+value[1]-1] == rule[1])){
                     count++;
                 }
             }
