@@ -30,7 +30,6 @@ function findIT(c){
         }
         tot = tot * count;
     }
-    
     return tot;
 }
 
