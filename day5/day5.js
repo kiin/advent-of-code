@@ -12,7 +12,6 @@ function findIT(pt){
 		let tic = lines[i].split('');
 		let row = Array(128);
 		let col = Array(8);
-
 		for(let k = 0, lenk = row.length; k < lenk; k++)
 			row[k] = k;
 		for(let x = 0, lenx = col.length; x < lenx; x++)
