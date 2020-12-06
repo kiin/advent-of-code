@@ -3,7 +3,6 @@ const fs = require('fs');
 const data = fs.readFileSync('day5.txt', 'UTF-8');
 const lines = data.split(/\r?\n/);
 
-
 function findIT(pt){
 	let id = 0;
 	let list = [];
