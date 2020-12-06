@@ -42,4 +42,3 @@ function findIT(pt){
 
 console.log(findIT(1));
 console.log(findIT(2));
-
