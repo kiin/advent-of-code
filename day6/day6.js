@@ -13,9 +13,8 @@ function findIT(pt){
 			if(pt === 2){
 				ans[ans.length] = a[j];
 			}else{
-				if(!ans.includes(a[j])){
+				if(!ans.includes(a[j]))
 					ans[ans.length] = a[j];
-				}	
 			}
 		}
 		if(lines[i] === ''){
