@@ -18,12 +18,12 @@ function findIT(pt){
 	for(let j = 0, len2 = tic.length; j < len2; j++){
 	    if(tic[j] === 'F')
 		row = row.slice(0,Math.floor(row.length/2));
-		    if(tic[j] === 'B')
-			row = row.slice((row.length/2),row.length);
-		    if(tic[j] === 'R')
-			col = col.slice((col.length/2),col.length);
-		    if(tic[j] === 'L')
-			col = col.slice(0,Math.floor(col.length/2));
+	    if(tic[j] === 'B')
+		row = row.slice((row.length/2),row.length);
+	    if(tic[j] === 'R')
+		col = col.slice((col.length/2),col.length);
+	    if(tic[j] === 'L')
+		col = col.slice(0,Math.floor(col.length/2));
 	}
 	temp = (row[0] * 8) + col[0];	
 	if(pt === 2){
