@@ -9,7 +9,7 @@ def findIT(pt):
     pos = []
     change = False
     while(True):
-        if index == 630:
+        if index == len(Lines):
             return acc
         if index in dupes:
             if pt == 1:
